@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './../../styles/UserRegistration.css';
 import { Link } from 'react-router-dom';
 
-export const UserRegistration = () => {
+const UserRegistration = () => {
   
   const [formData, setFormData] = useState({
     nombreCompleto: '', 
@@ -72,3 +72,6 @@ export const UserRegistration = () => {
     </div>
   );
 };
+
+
+export default UserRegistration

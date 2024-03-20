@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export const Footer = () => (
+const Footer = () => (
 	<footer className="ftco-footer ftco-section img" style="background-image: url(images/footer-bg.jpg);">
     	<div className="overlay"></div>
       <div className="container-fluid px-md-5">
@@ -77,3 +77,6 @@ export const Footer = () => (
       </div>
     </footer>
 );
+
+
+export default Footer

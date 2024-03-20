@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Navbar = () => {
+const Navbar = () => {
   return (
     <div classNameName="text-center mt-5">
     <div data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -49,4 +49,8 @@ export const Navbar = () => {
     </div>
   );
 };
+
+
+export default Navbar
+
 

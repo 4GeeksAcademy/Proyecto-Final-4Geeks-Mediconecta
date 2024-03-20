@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import "./../../styles/contactDetails.css";
 
-export const ContactDetails = () => {
+const ContactDetails = () => {
     const [contact, setContact] = useState(null);
     const { id } = useParams();
     const url = `https://......./contact/${id}`;
@@ -35,3 +35,6 @@ export const ContactDetails = () => {
         </div>
     );
 };
+
+
+export default ContactDetails

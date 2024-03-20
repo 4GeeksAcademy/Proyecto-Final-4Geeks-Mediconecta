@@ -1,17 +1,18 @@
 import React from "react";
 
-import { Navbar } from "../component/Navbar"; 
-import { Footer } from "../component/Footer"; 
-import { Body } from "../component/Body";
-import { FormularioRegistro } from "../component/FormularioRegistro";
-
-import "./../../styles/index.css";
+import  Navbar  from "../component/Navbar"; 
+import  Footer  from "../component/Footer"; 
+import  Body  from "../component/Body";
+import  FormularioRegistro  from "../component/FormularioRegistro";
 
 
-export const Home = () => {
-	
+const home = () => {
+  return (
+	<div>
+	  <><Navbar /><Body /><Footer /><FormularioRegistro/></>
+	</div>
+  )
+}
 
-	return (
-		<><Navbar /><Body /><Footer /><FormularioRegistro/></>
-	);
-};
+export default home
+

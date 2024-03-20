@@ -3,15 +3,15 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop";
 import { BackendURL } from "./component/backendURL";
 
-import { Home } from "./pages/home";
+import  Home  from "./pages/home";
 import { Demo } from "./pages/demo";
 import { Single } from "./pages/single";
 import injectContext from "./store/appContext";
 
-import { Navbar } from "./component/Navbar";
-import { Footer } from "./component/Footer";
-import { Body } from "./component/Body";
-import { FormularioRegistro } from "./component/FormularioRegistro";
+import  Navbar  from "./component/Navbar";
+import  Footer  from "./component/Footer";
+import  Body  from "./component/Body";
+import  FormularioRegistro  from "./component/FormularioRegistro";
 
 //create your first component
 const Layout = () => {
@@ -27,12 +27,12 @@ const Layout = () => {
                 <ScrollToTop>
                     <Navbar />
                     <Body />
-                    <Routes>
-                        <Route element={<Home />} path="/" />
-                        <Route element={<Demo />} path="/demo" />
-                        <Route element={<Single />} path="/single/:theid" />
-                        <Route element={<h1>Not found!</h1>} />
-                    </Routes>
+                        <Routes>
+                            <Route element={<Home />} path="/" />
+                            <Route element={<Demo />} path="/demo" />
+                            <Route element={<Single />} path="/single/:theid" />
+                            <Route element={<h1>Not found!</h1>} />
+                        </Routes>
                     <FormularioRegistro />
                     <Footer />
                 </ScrollToTop>

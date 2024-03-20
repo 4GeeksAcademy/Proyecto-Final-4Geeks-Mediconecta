@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Context } from "../store/appContext";
 import "./../../styles/FormularioRegistro.css";
 
-export const FormularioRegistro = () => {
+const FormularioRegistro = () => {
     const { store, actions } = useContext(Context);
     const [users, setUsers] = useState([]);
 
@@ -51,3 +51,6 @@ export const FormularioRegistro = () => {
         </div>
     );
 };
+
+
+export default FormularioRegistro

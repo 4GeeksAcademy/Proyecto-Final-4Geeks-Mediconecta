@@ -4,7 +4,7 @@ import { FormularioRegistro } from "../component/FormularioRegistro";
 import "./../../styles/style.css";
 
 
-export const Body = () => {
+const Body = () => {
   return (
 	<div>
 	  <section className="hero-wrap js-fullheight" style="background-image: url('img/bg_3.jpg');" data-section="home" data-stellar-background-ratio="0.5">
@@ -701,4 +701,4 @@ export const Body = () => {
   )
 }
 
-
+export default Body
